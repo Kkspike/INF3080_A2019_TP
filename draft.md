@@ -30,7 +30,7 @@
 ## Détails pour la réalisation
 
 - Les donneurs d'ouvrage sont appelés Manufacturiers;
-- Le transporteur peut avoir plusieurs camions/tracteurs;
+- Le transporteur peut avoir plusieurs camions/tracteurs et remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constinué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet;
@@ -53,6 +53,7 @@
  + route = trajet
  + Drybox et flatbed sont des types de remorques
  + equipement = remorque
+ + camions = tracteur + remorque
 
 #### Tables fournies
  + Location
