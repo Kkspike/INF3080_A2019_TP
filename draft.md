@@ -49,11 +49,11 @@
  + largeur
  + hauteur
  
-#### Synonimes
+#### Synonymes
  + route = trajet
  + Drybox et flatbed sont des types de remorques
  + equipement = remorque
- + camions = tracteur + remorque
+ + camion = tracteur + remorque
 
 #### Tables fournies
  + Location
