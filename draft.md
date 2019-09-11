@@ -15,7 +15,7 @@
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser une application dans le
   domaine du transport de marchandises.  Votre mandat construire un système de gestion de tarification dynamique.
   
-## Description informative (qui n'est pas à faire dans ce cours)
+## Description informative (qui n'est pas à faire dans ce travail)
 
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développé dans ce cours).
