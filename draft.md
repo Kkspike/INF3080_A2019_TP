@@ -10,7 +10,7 @@
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
   activités requises par les utilisateurs.
 
-## Description du travail
+# Description du travail
 
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser une application dans le
   domaine du transport de marchandises.  Votre mandat construire un système de gestion de tarification dynamique.
@@ -18,7 +18,7 @@
 ## Description informative (qui n'est pas à faire dans ce travail)
 
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
-  Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développé dans ce cours).
+  Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
   
 ## Les acteurs
 
@@ -48,17 +48,35 @@
  + longueur
  + largeur
  + hauteur
- + essieux
  
-Vous devez créer un modèle conceptuel qui est capable de traiter les demandes (requêtes) du client et de lui produire une réponse
-rapidement en fonction des critères saisis.
+#### Synonimes
+ + route = trajet
+ + Drybox et flatbed sont des types de remorques
+ + equipement = remorque
 
-De plus, vous devez rendre disponible une liste de fonctions/procédures que nous appellerons API afin que l'application Web soit
-en mesure d'obtenir les réponses (résultats) et les présenter à l'utilisateur.
+#### Tables fournies
+ + Location
+ 
+| Colonne | Grandeur | Description  |
+| :----------- |:------------ | :------|
+| pLocation |    | pk|
+| cLocation | 30 | |
+| nLat | 8,5 | |
+| nLon | 8,5 | |
+| pEquipement | | fk |
 
-Les fonctions ou requêtes que vous allez implémenter sont les suivantes :
++ Distance
 
-Vos résultats devront toujours être sous la forme de JSON.
+| Colonne | Grandeur | Description  |
+| :----------- |:------------ | :------|
+| pDistance |    | pk|
+| cDistance | 30 | |
+| nLatO | 8,5 | Coordonnée latitude d'origine |
+| nLonO | 8,5 | Coordonnée longitude d'origine |
+| nLatD | 8,5 | Coordonnée latitude destination |
+| nLonD | 8,5 | Coordonnée longitude destination |
+| nDistance | | Distance en KM |
+
 
 # README.md
 
