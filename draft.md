@@ -3,36 +3,36 @@
   L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
   
 ### TP1
-  Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez exécuter des requêtes
-  qui rempliront votre BD.
+  Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
+  exécuter des requêtes qui rempliront votre base de données.
   
 ### TP2
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
   activités requises par les utilisateurs.
 
-# Description du travail
+## Description du travail
 
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser une application dans le
   domaine du transport de marchandises.  Votre mandat construire un système de gestion de tarification dynamique.
   
-# Description informative (qui n'est pas à faire dans ce cours)
+## Description informative (qui n'est pas à faire dans ce cours)
 
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développé dans ce cours).
   
-# Les acteurs
+## Les acteurs
 
   Votre client est une compagnie de transport avec plusieurs camions.  Les clients de
   celle-ci sont principalement des manufacturiers qui ont besoin d'un transporteur pour livrer des marchandises.
   Le système est utilisable par des utilisateurs non informaticiens qui sont externe non formé (ne sont pas des employés).  
   Ils utiliseront une interface Web pour faire leurs demandes.
 
-# Détails pour la réalisation
+## Détails pour la réalisation
 
 - Les donneurs d'ouvrage sont appelés Manufacturiers;
 - Le transporteur peut avoir plusieurs camions/tracteurs;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
-- Un trajet est d'une origine vers une destination;
+- Un trajet est constinué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet;
 - Les facteurs qui servent à calculer le prix à payer d'un transport sont:
   + le prix du carburant;
@@ -95,6 +95,8 @@ Vos résultats devront toujours être sous la forme de JSON.
    ## Statut
 
    <indiquez si le projet est complété ou s'il y a des bogues>
+   
+   ## Auto-évaluation
 ~~~~
 
 # Remise
@@ -117,6 +119,7 @@ Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous deve
   Votre projet devrait minimalement contenir les fichiers suivants :
 
 - Un fichier `cp.txt` contenant votre code permanent en majuscule et complet (requis pour la publication des résultats);
+- Un fichier `modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_
 - Un fichier `01_create.sql` contenant la création de votre schéma;
 - Un fichier `02_load.sql` contenant les directives pour charger votre base de données;
 - Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées;
@@ -147,8 +150,8 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 | Modèle            |                                                  | 1.0 |
 | Schéma            | Création                                         | 5.0 |
 | Chargement        |                                                  | 2.0 |
-| Requetes lot 1    | Fonctionnalité de base                           | 2.5 |
-| Requetes lot 2    | Fonctionnalité et vérification additionnel       | 2.5 |
+| Requêtes lot 1    | Fonctionnalité de base                           | 2.5 |
+| Requêtes lot 2    | Fonctionnalité et vérification additionnel       | 2.5 |
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Markdown          | README.md                                        | 1.0 |
 | **Total**         |                                                  | 15.0 |
