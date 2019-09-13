@@ -29,8 +29,13 @@
 
 ## Détails pour la réalisation
 
-- Les donneurs d'ouvrage sont appelés Manufacturiers;
-- Le transporteur peut avoir plusieurs camions/tracteurs et remorques;
+- Les donneurs de voyage sont appelés manufacturiers;
+- Le transporteur peut avoir plusieurs camions;
+- Un camion implique deux parties, le tracteur et la remorque;
+- Les camions appartiennent à une compagnie;
+- Une compagnie fait toujours le même profit sur tous les voyages;
+- Un camion n'est pas disponible lorsqu'il est sur la route pour soit disponible ou pas;
+- Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constinué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet;
@@ -50,21 +55,36 @@
  + hauteur
  
 #### Synonymes
- + route = trajet
- + Drybox et flatbed sont des types de remorques
- + equipement = remorque
- + camion = tracteur + remorque
+ + trajet  :arrow_right: route
+ + remorque :arrow_right: equipement
+ + voyage :arrow_right: chargement
+ + manufacturier :arrow_right: client
+ + proposition de tarification :arrow_right: soummission
+ + transporteur :arrow_right: compagnie
+
+#### Abréviations acceptées
+| Mot | Abréviation | Colonne  |
+| :----------- |:------------ | :------|
+| Latitude     | Lat   | nLat  |
+| Longitude    | Long  | nLong |
+| Origine      | Ori   |       |
+| Destination  | Des   |        |
+| Latitude d'origine | LatOri | nLatOri |
+| Longitude destination | LongDes | nLongDes |
+
 
 #### Tables fournies
- + Location
+ + Position
+   - La table contiendra les positions des equipements ains
  
 | Colonne | Grandeur | Description  |
 | :----------- |:------------ | :------|
-| pLocation |    | pk|
-| cLocation | 30 | |
-| nLat | 8,5 | |
-| nLon | 8,5 | |
-| pEquipement | | fk |
+| pPosition    |     | pk|
+| cPosition    | 30  | |
+| nLat         | 8,5 | |
+| nLong        | 8,5 | |
+| bDisponible  |     | |
+| pEquipement  |     | fk |
 
 + Distance
 
@@ -72,10 +92,10 @@
 | :----------- |:------------ | :------|
 | pDistance |    | pk|
 | cDistance | 30 | |
-| nLatO | 8,5 | Coordonnée latitude d'origine |
-| nLonO | 8,5 | Coordonnée longitude d'origine |
-| nLatD | 8,5 | Coordonnée latitude destination |
-| nLonD | 8,5 | Coordonnée longitude destination |
+| nLatOri   | 8,5 | Coordonnée latitude d'origine |
+| nLongOri  | 8,5 | Coordonnée longitude d'origine |
+| nLatDes   | 8,5 | Coordonnée latitude destination |
+| nLongDes  | 8,5 | Coordonnée longitude destination |
 | nDistance | | Distance en KM |
 
 
