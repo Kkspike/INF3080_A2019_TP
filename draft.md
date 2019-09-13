@@ -86,12 +86,13 @@
 | bDisponible  |     | |
 | pEquipement  |     | fk |
 
-+ Distance
++ Route
+  - La table contient des routes et le nombre de km entre l'origine et la destination
 
 | Colonne | Grandeur | Description  |
 | :----------- |:------------ | :------|
-| pDistance |    | pk|
-| cDistance | 30 | |
+| pRoute |    | pk|
+| cRoute | 30 | |
 | nLatOri   | 8,5 | Coordonnée latitude d'origine |
 | nLongOri  | 8,5 | Coordonnée longitude d'origine |
 | nLatDes   | 8,5 | Coordonnée latitude destination |
@@ -186,14 +187,14 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 
 | Critère | Sous-critère | Points |
 | ------- |:------------ | ------:|
-| Modèle            |                                                  | 1.0 |
-| Schéma            | Création                                         | 5.0 |
-| Chargement        |                                                  | 2.0 |
-| Requêtes lot 1    | Fonctionnalité de base                           | 2.5 |
-| Requêtes lot 2    | Fonctionnalité et vérification additionnel       | 2.5 |
+| Modèle            | Modèle conceptuel                                | 1.0 |
+| Algèbre           | Algèbre relationnel                              | 1.0 |
+| Schéma            | Script de création du schéma                     | 5.0 |
+| Chargement        | Script de chargement des tuples                  | 2.0 |
+| Fonctionnalité    | Fonctionnalité, respect et complétude            | 5.0 |
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Markdown          | README.md                                        | 1.0 |
-| **Total**         |                                                  | 15.0 |
+| **Total**         |                                                  | 15.0 / 16.0 |
 
 ----
 ##### Auteur Guy Francoeur
