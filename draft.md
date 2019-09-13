@@ -102,8 +102,7 @@
 
 # README.md
 
-  En plus du code source nommé `tp1.c` et du fichier nommé `Makefile`, votre projet doit contenir
-  un fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
+  Le fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
   Il doit minimalement contenir les informations ci-bas :
 
 ~~~~
