@@ -8,7 +8,7 @@
   
 ### TP2
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
-  activités requises par les utilisateurs.
+  fonctionnalités requises par les utilisateurs.
 
 # Description du travail
 
@@ -38,7 +38,7 @@
 - Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constinué d'une origine vers une destination;
-- Les propositions de tarification sont des estimations de prix à payer pour un trajet;
+- Les propositions de tarification sont des estimations de prix à payer pour un trajet faites à une date;
 - Les facteurs qui servent à calculer le prix à payer d'un transport sont:
   + le prix du carburant;
   + la distance du trajet;
@@ -99,7 +99,19 @@
 | nLongDes  | 8,5 | Coordonnée longitude destination |
 | nDistance | | Distance en KM |
 
+# Livrables
 
+### algebre-tp1.pdf
+ + Realiser en utilisant l'algèbre relationnel
+   - a. 
+   - b.
+
+### 04a_query.sql
+ + Écrire une requête qui retourne les soumissions génerés avec un filtre sur la clé primaire avec une valeur égal à 3
+
+### 04b_query.sql
+ + Écrire une requête qui liste les camions qui sont présentement en voyage
+  
 # README.md
 
   Le fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
