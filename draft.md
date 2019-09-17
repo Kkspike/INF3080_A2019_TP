@@ -24,8 +24,8 @@
 
   Votre client est une compagnie de transport avec plusieurs camions.  Les clients de
   celle-ci sont principalement des manufacturiers qui ont besoin d'un transporteur pour livrer des marchandises.
-  Le système est utilisable par des utilisateurs non informaticiens qui sont externe non formé (ne sont pas des employés).  
-  Ils utiliseront une interface Web pour faire leurs demandes.
+  Le système est utilisable par des utilisateurs non informaticiens qui sont externes. Ils ne sont pas des employés.  
+  Ils utiliseront une interface Web pour faire leurs demandes et recevoir les résultats.
 
 ## Détails pour la réalisation
 
@@ -75,7 +75,7 @@
 
 #### Tables fournies
  + Position
-   - La table contiendra les positions des equipements ains
+   - La table contiendra les positions des équipements ainsi que la disponibilité
  
 | Colonne | Grandeur | Description  |
 | :----------- |:------------ | :------|
@@ -140,8 +140,8 @@
 
 # Remise
 
-  La totalité de votre travail doit être remis au plus tard le **x octobre 2019** à **00h01**. 
-  À partir de cette date/heure, une pénalité de **3 points par jour** de retard sera appliquée.
+  La totalité de votre travail doit être remis au plus tard le **22 octobre 2019** à **23h59**. 
+  À partir de cette date/heure, une pénalité de **5 points par jour** de retard sera appliquée.
 
   La remise se fait **obligatoirement** par l'intermédiaire de l'une des plateformes de gestion de version suivantes :
   + `GitHub https://github.com/`___;
@@ -193,7 +193,7 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 | Fonctionnalité    | Fonctionnalité, respect et complétude            | 5.0 |
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Markdown          | README.md                                        | 1.0 |
-| **Total**         |                                                  | 15.0 / 16.0 |
+| **Total**         |                                                  | 16.0 / 15.0 |
 
 ----
 ##### Auteur Guy Francoeur
