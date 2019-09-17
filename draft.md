@@ -34,7 +34,7 @@
 - Un camion implique deux parties, le tracteur et la remorque;
 - Les camions appartiennent à une compagnie;
 - Une compagnie fait toujours le même profit sur tous les voyages;
-- Un camion n'est pas disponible lorsqu'il est sur la route pour soit disponible ou pas;
+- Un camion est disponible lorsqu'il n'est pas en voyage;
 - Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constinué d'une origine vers une destination;
@@ -84,7 +84,7 @@
 | nLat         | 8,5 | |
 | nLong        | 8,5 | |
 | bDisponible  |     | |
-| pEquipement  |     | fk |
+| pCamion      |     | fk |
 
 + Route
   - La table contient des routes et le nombre de km entre l'origine et la destination
