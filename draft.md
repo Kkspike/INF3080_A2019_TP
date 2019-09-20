@@ -29,6 +29,16 @@
   Le système est utilisable par des utilisateurs non informaticiens qui sont externes. Ils ne sont pas des employés.  
   Ils utiliseront une interface Web pour faire leurs demandes et recevoir les résultats.
 
+## Lexique
+
+#### Synonymes
+ + trajet  :arrow_right: route
+ + remorque :arrow_right: equipement
+ + voyage :arrow_right: chargement
+ + manufacturier :arrow_right: client
+ + proposition de tarification :arrow_right: soummission
+ + transporteur :arrow_right: compagnie
+
 ## Détails pour la réalisation
 
 - Les donneurs de voyage sont appelés manufacturiers;
@@ -40,8 +50,9 @@
 - Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constitué d'une origine vers une destination;
-- Les propositions de tarification sont des estimations de prix à payer pour un trajet faites à une date;
-- Les facteurs qui servent à calculer le prix à payer d'un transport sont:
+- Les propositions de tarification sont des estimations de prix à payer pour un trajet;
+- La proposition de tarification est créé à une date;
+- Les facteurs qui servent à calculer le prix à payer d'un voyage sont:
   + le prix du carburant;
   + la distance du trajet;
   + la consommation de carburant du tracteur;
@@ -56,15 +67,7 @@
  + largeur
  + hauteur
  
-#### Synonymes
- + trajet  :arrow_right: route
- + remorque :arrow_right: equipement
- + voyage :arrow_right: chargement
- + manufacturier :arrow_right: client
- + proposition de tarification :arrow_right: soummission
- + transporteur :arrow_right: compagnie
-
-#### Abréviations acceptées
+#### Abréviations acceptées (à utiliser)
 | Mot | Abréviation | Colonne  |
 | :----------- |:------------ | :------|
 | Latitude     | Lat   | nLat  |
@@ -172,11 +175,12 @@ Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous deve
   Votre projet devrait minimalement contenir les fichiers suivants :
 
 - Un fichier `cp.txt` contenant votre code permanent en majuscule et complet (requis pour la publication des résultats);
-- Un fichier `modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_
+- Un fichier `modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_;
 - Un fichier `01_create.sql` contenant la création de votre schéma;
 - Un fichier `02_load.sql` contenant les directives pour charger votre base de données;
 - Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées (facultatif);
-- Les fichiers `04a_query.sql` et `04b_query.sql` contenant 
+- Les fichiers `04a_query.sql` et `04b_query.sql` contenant les réponses aux questions SQL;
+- Un fichier nommé `algebre-tp1.txt` qui contient les reponses aux questions sur l'algèbre relationnelle;
 - Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
 - Un fichier ``.gitignore``. Ça aide beaucoup;
 - Aucune structure de répertoire nécessaire.
