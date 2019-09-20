@@ -104,6 +104,14 @@
 | nLongDes  | 8,5 | Coordonnée longitude destination |
 | nDistance | | Distance en KM |
 
+ + TypeEquipement
+   - La table contiendra les type d'équipements
+ 
+| Colonne | Grandeur | Description  |
+| :----------- |:------------ | :------|
+| pTypeEquipement    |     | pk|
+| cTypeEquipement    | 30  | |
+
 # Livrables
 
 ### algebre-tp1.pdf
