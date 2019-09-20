@@ -4,7 +4,7 @@
 
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser
   une application dans le domaine du transport de marchandises.  Votre mandat est de construire un
-  système de gestion de tarification dynamique. Le sujet sera réalisé à l'aide de deux travaux pratique (TP1 + TP2).
+  système de gestion de tarification dynamique. Le sujet sera réalisé à l'aide de deux travaux pratiques (TP1 + TP2).
 
 ### Description informative (qui n'est pas à faire dans ce travail)
 
@@ -15,9 +15,9 @@
 
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
   exécuter des requêtes qui rempliront votre base de données.  Un `script` pour nous, est un fichier texte qui contient
-  des instructions SQL qui seront executées sequentiellement.
+  des instructions SQL qui seront exécutées séquentiellement.
   
-### TP2 (un autre enoncé sera fourni)
+### TP2 (un autre énoncé sera fourni)
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
   fonctionnalités requises par les utilisateurs.
 
@@ -31,9 +31,9 @@
 
  + Concevoir un modèle conceptuel;
  + Concevoir un modèle relationnel;
- + Concevoir un schema sous forme de script SQL;
- + Exécuter des requetes afin de charger votre BD;
- + Exécuter des requêtes afin de verifier le contenu votre BD;
+ + Concevoir un schéma sous forme de script SQL;
+ + Exécuter des requêtes afin de charger votre BD;
+ + Exécuter des requêtes afin de versifier le contenu votre BD;
 
 ## Les acteurs
 
@@ -65,7 +65,7 @@
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constitué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet;
-- La proposition de tarification est créé à une date;
+- La proposition de tarification est créée à une date;
 - Les facteurs qui servent à calculer le prix à payer d'un voyage sont:
   + le prix du carburant;
   + la distance du trajet;
@@ -77,7 +77,7 @@
 
 ## Guide pour la création des attributs
 
-  - La notation hongroise est d'usage pour nommé vos attributs.
+  - La notation hongroise est d'usage pour nommer vos attributs.
 
 ### Abréviations acceptées (à utiliser)
 | Mot | Abréviation | Colonne  |
@@ -124,7 +124,7 @@
 | nDistance | | Distance en KM |
 
  + TypeEquipement
-   - La table contiendra les type d'équipements
+   - La table contiendra les types d'équipements
  
 | Colonne | Grandeur | Description  |
 | :----------- |:------------ | :------|
@@ -145,8 +145,8 @@
   Certaines données peuvent être importées depuis un fichier CSV ou TSV.
 
 ### 03_tester.sql
-  Vous devez dans un fichier nommé `03_tester.sql` ecrire des requêtes qui vous aide à réaliser un travail
-  qui soit de qualité.  Il est toujours important de faire des tests. Puis-que nous ne voulons pas perdre 
+  Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident à réaliser un travail
+  qui soit de qualité.  Il est toujours important de faire des tests. Puisque nous ne voulons pas perdre 
   nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
 
 ### 04a_query.sql
