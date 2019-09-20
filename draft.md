@@ -1,8 +1,17 @@
-# Travail pratique 1
+# Introduction du sujet pour INF3080 A2019 
 
-  L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
+### Description des travaux pratiques
 
-## Sujet 
+  Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser
+  une application dans le domaine du transport de marchandises.  Votre mandat est de construire un
+  système de gestion de tarification dynamique. Le sujet sera réalisé a l'aide de deux TP.
+
+
+### Description informative (qui n'est pas à faire dans ce travail)
+
+  Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
+  Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
+
 ### TP1
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
   exécuter des requêtes qui rempliront votre base de données.  Un `script` pour nous, est un fichier texte qui contient
@@ -12,16 +21,16 @@
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
   fonctionnalités requises par les utilisateurs.
 
-# Description du travail
+----
 
-  Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser une application dans le
-  domaine du transport de marchandises.  Votre mandat est de construire un système de gestion de tarification dynamique.
-  
-## Description informative (qui n'est pas à faire dans ce travail)
+# Travail pratique 1 - Médélisation et Conception d'une BD
 
-  Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
-  Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
-  
+  L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
+
+ + Concevoir un modele conceptuel
+ + Concevoir un modele relationnel
+ + Concevoir un schema sous forme de script
+
 ## Les acteurs
 
   Votre client est une compagnie de transport avec plusieurs camions.  Les clients de
