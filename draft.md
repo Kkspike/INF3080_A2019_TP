@@ -240,4 +240,4 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 La note maximale possible dans résultat est 15 points. 
 
 ----
-##### Auteur Guy Francoeur
+##### Auteur :copyright: 2019 Guy Francoeur
