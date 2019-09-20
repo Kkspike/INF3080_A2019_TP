@@ -46,7 +46,7 @@
 ## Lexique
 
 #### Synonymes
- + trajet  :arrow_right: route
+ + trajet  :arrow_right: routeF
  + remorque :arrow_right: equipement
  + voyage :arrow_right: chargement
  + manufacturier :arrow_right: client
@@ -146,9 +146,9 @@
   Certaines données peuvent être importées depuis un fichier CSV ou TSV.
 
 ### 03_tester.sql
-  Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident à réaliser un travail
-  qui soit de qualité.  Il est toujours important de faire des tests. Puisque nous ne voulons pas perdre 
-  nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
+  Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident 
+  à réaliser un travail de qualité.  Il est toujours important de faire des tests. Puisque
+  nous ne voulons pas perdre nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
 
 ### 04a_query.sql
  + Écrire une requête qui retourne les soumissions générées avec un filtre sur la clé primaire avec une valeur égale à 3;
