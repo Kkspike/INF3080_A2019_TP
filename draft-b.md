@@ -46,7 +46,7 @@
 ## Lexique
 
 #### Synonymes
- + trajet  :arrow_right: routeF
+ + trajet  :arrow_right: route
  + remorque :arrow_right: equipement
  + voyage :arrow_right: chargement
  + manufacturier :arrow_right: client
