@@ -12,6 +12,7 @@
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
 
 ### TP1
+
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
   exécuter des requêtes qui rempliront votre base de données.  Un `script` pour nous, est un fichier texte qui contient
   des instructions SQL qui seront executées sequentiellement.
@@ -129,17 +130,33 @@
 
 # Livrables
 
-### algebre-tp1.pdf
- + Réaliser en utilisant l'algèbre relationnelle
-   - a.  à venir
-   - b.  à venir
+### 00_modele.pdf
+  Vous devez modéliser le sujet conceptuellement et produire le fichier `modele.pdf`;
+
+### 01_schema.sql
+  Votre schéma doit être dans un *script* nommé `01_schema.sql` et ne contenir que des commandes de création.
+  
+### 02_charger.sql
+  Vous devez ensuite créer un deuxième *script* nommé `02_charger.sql` qui remplira votre BD.
+  Ce dernier doit contenir des commandes INSERT.
+  Certaines données peuvent être importées depuis un fichier CSV ou TSV.
+
+### 03_tester.sql
+  Vous devez dans un fichier nommé `03_tester.sql` ecrire des requêtes qui vous aide à réaliser un travail
+  qui soit de qualité.  Il est toujours important de faire des tests. Puis-que nous ne voulons pas perdre 
+  nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
 
 ### 04a_query.sql
  + Écrire une requête qui retourne les soumissions générées avec un filtre sur la clé primaire avec une valeur égale à 3;
 
 ### 04b_query.sql
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
-  
+
+### 05_algebre-tp1.pdf
+ + Réaliser en utilisant l'algèbre relationnelle
+   - a.  à venir
+   - b.  à venir
+
 # README.md
 
   Le fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
@@ -198,10 +215,10 @@ Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous deve
   Votre projet devrait minimalement contenir les fichiers suivants :
 
 - Un fichier `cp.txt` contenant votre code permanent en majuscule et complet (requis pour la publication des résultats);
-- Un fichier `modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_;
-- Un fichier `01_create.sql` contenant la création de votre schéma;
-- Un fichier `02_load.sql` contenant les directives pour charger votre base de données;
-- Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées (facultatif);
+- Un fichier `00_modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_;
+- Un fichier `01_schema.sql` contenant la création de votre schéma de base de données;
+- Un fichier `02_charger.sql` contenant les directives pour charger votre base de données;
+- Un fichier `03_tester.sql` contenant des vérifications que vous jugez appropriées (facultatif);
 - Les fichiers `04a_query.sql` et `04b_query.sql` contenant les réponses aux questions SQL;
 - Un fichier nommé `algebre-tp1.pdf` qui contient les réponses aux questions sur l'algèbre relationnelle;
 - Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
