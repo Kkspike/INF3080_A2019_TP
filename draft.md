@@ -22,7 +22,7 @@
 
 ----
 
-# Travail pratique 1 - Médélisation et Conception d'une BD
+# Travail pratique 1 - Modélisation et Conception d'une BD
 
 ## Objectif
 
