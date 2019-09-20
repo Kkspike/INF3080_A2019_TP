@@ -59,7 +59,7 @@
 - Le transporteur peut avoir plusieurs camions;
 - Un camion implique deux parties, le tracteur et la remorque;
 - Les camions appartiennent à une compagnie;
-- Une compagnie fait toujours le même profit sur tous les voyages;
+- Une compagnie fait toujours le même profit (un pourcentage : 1.18) sur tous les voyages;
 - Un camion est disponible lorsqu'il n'est pas en voyage;
 - Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
