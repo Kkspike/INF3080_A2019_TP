@@ -180,7 +180,7 @@ Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous deve
 - Un fichier `02_load.sql` contenant les directives pour charger votre base de données;
 - Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées (facultatif);
 - Les fichiers `04a_query.sql` et `04b_query.sql` contenant les réponses aux questions SQL;
-- Un fichier nommé `algebre-tp1.txt` qui contient les reponses aux questions sur l'algèbre relationnelle;
+- Un fichier nommé `algebre-tp1.pdf` qui contient les réponses aux questions sur l'algèbre relationnelle;
 - Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
 - Un fichier ``.gitignore``. Ça aide beaucoup;
 - Aucune structure de répertoire nécessaire.
