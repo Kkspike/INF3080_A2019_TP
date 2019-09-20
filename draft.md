@@ -32,8 +32,8 @@
  + Concevoir un modèle conceptuel;
  + Concevoir un modèle relationnel normalisé;
  + Concevoir un schéma sous forme de script SQL;
- + Exécuter des requêtes afin de charger votre BD;
- + Exécuter des requêtes afin de vérifier le contenu votre BD;
+ + Concevoir et exécuter des requêtes afin de charger votre BD;
+ + Concevoir et exécuter des requêtes afin de vérifier le contenu votre BD;
 
 ## Les acteurs
 
