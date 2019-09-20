@@ -4,8 +4,7 @@
 
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser
   une application dans le domaine du transport de marchandises.  Votre mandat est de construire un
-  système de gestion de tarification dynamique. Le sujet sera réalisé à l'aide de deux Travail Pratique.
-
+  système de gestion de tarification dynamique. Le sujet sera réalisé à l'aide de deux travaux pratique (TP1 + TP2).
 
 ### Description informative (qui n'est pas à faire dans ce travail)
 
