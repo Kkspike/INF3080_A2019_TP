@@ -26,7 +26,7 @@
 
 ## Objectif
 
- ### L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
+ L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
 
  + Concevoir un modèle conceptuel;
  + Concevoir un modèle relationnel;
