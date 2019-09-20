@@ -5,8 +5,8 @@
 ## Sujet 
 ### TP1
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
-  exécuter des requêtes qui rempliront votre base de données.  Une Script pour nous, est un fichier qui contient des
-  instructions SQL qui seront executées sequentiellement. 
+  exécuter des requêtes qui rempliront votre base de données.  Un `script` pour nous, est un fichier texte qui contient
+  des instructions SQL qui seront executées sequentiellement.
   
 ### TP2 (un autre enoncé sera fourni)
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
@@ -15,7 +15,7 @@
 # Description du travail
 
   Nous voulons dans ce travail, à l'aide d'un sujet d'actualité, construire, implémenter et optimiser une application dans le
-  domaine du transport de marchandises.  Votre mandat construire un système de gestion de tarification dynamique.
+  domaine du transport de marchandises.  Votre mandat est de construire un système de gestion de tarification dynamique.
   
 ## Description informative (qui n'est pas à faire dans ce travail)
 
@@ -25,9 +25,10 @@
 ## Les acteurs
 
   Votre client est une compagnie de transport avec plusieurs camions.  Les clients de
-  celle-ci sont principalement des manufacturiers qui ont besoin d'un transporteur pour livrer des marchandises.
-  Le système est utilisable par des utilisateurs non informaticiens qui sont externes. Ils ne sont pas des employés.  
-  Ils utiliseront une interface Web pour faire leurs demandes et recevoir les résultats.
+  celle-ci sont principalement des manufacturiers qui ont besoin d'un transporteur pour 
+  livrer des marchandises. Le système est utilisable par des utilisateurs non informaticiens
+  qui sont externes. Ils ne sont pas des employés. Ils utiliseront une interface Web pour
+  faire leurs demandes et recevoir les résultats.
 
 ## Lexique
 
