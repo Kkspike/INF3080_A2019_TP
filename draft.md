@@ -25,11 +25,15 @@
 
 # Travail pratique 1 - Médélisation et Conception d'une BD
 
-  L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
+## Objectif
 
- + Concevoir un modele conceptuel
- + Concevoir un modele relationnel
- + Concevoir un schema sous forme de script
+ ### L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
+
+ + Concevoir un modèle conceptuel;
+ + Concevoir un modèle relationnel;
+ + Concevoir un schema sous forme de script SQL;
+ + Exécuter des requetes afin de charger votre BD;
+ + Exécuter des requêtes afin de verifier le contenu votre BD;
 
 ## Les acteurs
 
@@ -70,14 +74,16 @@
   + l'espace occupé dans la remorque;
   + le type de remorque;
   + la marge de profit du transporteur;
-  
-#### Une remorque comporte les attributs suivants : 
+
+## Les entités
+
+### Une remorque comporte les attributs suivants : 
  + capacité
  + longueur
  + largeur
  + hauteur
  
-#### Abréviations acceptées (à utiliser)
+### Abréviations acceptées (à utiliser)
 | Mot | Abréviation | Colonne  |
 | :----------- |:------------ | :------|
 | Latitude     | Lat   | nLat  |
@@ -88,7 +94,7 @@
 | Longitude destination | LongDes | nLongDes |
 
 
-#### Tables fournies
+### Tables fournies
  + Position
    - La table contiendra les positions des équipements ainsi que la disponibilité
  
