@@ -30,7 +30,7 @@
  L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
 
  + Concevoir un modèle conceptuel;
- + Concevoir un modèle relationnel;
+ + Concevoir un modèle relationnel normalisé;
  + Concevoir un schéma sous forme de script SQL;
  + Exécuter des requêtes afin de charger votre BD;
  + Exécuter des requêtes afin de vérifier le contenu votre BD;
