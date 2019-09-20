@@ -1,12 +1,14 @@
 # Travail pratique 1
 
   L'objectif est de vous initier à la construction et l'exploitation de bases de données dans un SGBDR. 
-  
+
+## Sujet 
 ### TP1
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
-  exécuter des requêtes qui rempliront votre base de données.
+  exécuter des requêtes qui rempliront votre base de données.  Une Script pour nous, est un fichier qui contient des
+  instructions SQL qui seront executées sequentiellement. 
   
-### TP2
+### TP2 (un autre enoncé sera fourni)
   Dans la deuxième portion du travail, vous aurez à programmer et implémenter des procédures et fonctions afin de réaliser des
   fonctionnalités requises par les utilisateurs.
 
