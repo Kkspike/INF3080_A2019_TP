@@ -37,7 +37,7 @@
 - Un camion est disponible lorsqu'il n'est pas en voyage;
 - Drybox et flatbed sont des types de remorques;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
-- Un trajet est constinué d'une origine vers une destination;
+- Un trajet est constitué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet faites à une date;
 - Les facteurs qui servent à calculer le prix à payer d'un transport sont:
   + le prix du carburant;
@@ -102,15 +102,15 @@
 # Livrables
 
 ### algebre-tp1.pdf
- + Realiser en utilisant l'algèbre relationnel
-   - a. 
-   - b.
+ + Réaliser en utilisant l'algèbre relationnelle
+   - a.  à venir
+   - b.  à venir
 
 ### 04a_query.sql
- + Écrire une requête qui retourne les soumissions génerés avec un filtre sur la clé primaire avec une valeur égal à 3
+ + Écrire une requête qui retourne les soumissions générées avec un filtre sur la clé primaire avec une valeur égale à 3;
 
 ### 04b_query.sql
- + Écrire une requête qui liste les camions qui sont présentement en voyage
+ + Écrire une requête qui liste les camions qui sont présentement en voyage;
   
 # README.md
 
@@ -173,7 +173,8 @@ Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous deve
 - Un fichier `modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_
 - Un fichier `01_create.sql` contenant la création de votre schéma;
 - Un fichier `02_load.sql` contenant les directives pour charger votre base de données;
-- Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées;
+- Un fichier `03_test.sql` contenant des vérifications que vous jugez appropriées (facultatif);
+- Les fichiers `04a_query.sql` et `04b_query.sql` contenant 
 - Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
 - Un fichier ``.gitignore``. Ça aide beaucoup;
 - Aucune structure de répertoire nécessaire.
@@ -206,6 +207,8 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Markdown          | README.md                                        | 1.0 |
 | **Total**         |                                                  | 16.0 / 15.0 |
+
+La note maximale possible dans résultat est 15 points. 
 
 ----
 ##### Auteur Guy Francoeur
