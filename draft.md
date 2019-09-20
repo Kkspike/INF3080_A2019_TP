@@ -11,7 +11,7 @@
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
 
-### TP1
+### TP1 (ci-bas)
 
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
   exécuter des requêtes qui rempliront votre base de données.  Un `script` pour nous, est un fichier texte qui contient
@@ -33,7 +33,7 @@
  + Concevoir un modèle relationnel;
  + Concevoir un schéma sous forme de script SQL;
  + Exécuter des requêtes afin de charger votre BD;
- + Exécuter des requêtes afin de versifier le contenu votre BD;
+ + Exécuter des requêtes afin de vérifier le contenu votre BD;
 
 ## Les acteurs
 
@@ -89,7 +89,8 @@
 | Latitude d'origine | LatOri | nLatOri |
 | Longitude destination | LongDes | nLongDes |
 
-## Les entités (fournies)
+## Les entités
+
 
 ### Une remorque comporte les attributs suivants : 
  + capacité
