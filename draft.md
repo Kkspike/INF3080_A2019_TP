@@ -75,14 +75,10 @@
   + le type de remorque;
   + la marge de profit du transporteur;
 
-## Les entités
+## Guide pour la création des attributs
 
-### Une remorque comporte les attributs suivants : 
- + capacité
- + longueur
- + largeur
- + hauteur
- 
+  - La notation hongroise est d'usage pour nommé vos attributs.
+
 ### Abréviations acceptées (à utiliser)
 | Mot | Abréviation | Colonne  |
 | :----------- |:------------ | :------|
@@ -93,6 +89,13 @@
 | Latitude d'origine | LatOri | nLatOri |
 | Longitude destination | LongDes | nLongDes |
 
+## Les entités (fournies)
+
+### Une remorque comporte les attributs suivants : 
+ + capacité
+ + longueur
+ + largeur
+ + hauteur
 
 ### Tables fournies
  + Position
@@ -157,7 +160,7 @@
    - a.  à venir
    - b.  à venir
 
-# README.md
+### README.md
 
   Le fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
   Il doit minimalement contenir les informations ci-bas :
