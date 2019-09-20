@@ -151,7 +151,14 @@
   nous ne voulons pas perdre nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
 
 ### 04a_query.sql
- + Écrire une requête qui retourne les soumissions générées avec un filtre sur la clé primaire avec une valeur égale à 3;
+ + Écrire une requête qui retourne les soumissions générées. 
+   - seulement les datés du 2019-09-30; 
+   - pour le pClient 4;
+   
+### 04a_query.sql
+ + Écrire une requête qui retourne les soumissions générées. 
+   - seulement les datés du 2019-09-30; 
+   - pour le pClient 4;   
 
 ### 04b_query.sql
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
