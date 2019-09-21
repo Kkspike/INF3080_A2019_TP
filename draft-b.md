@@ -75,7 +75,7 @@
   + le type de remorque;
   + la marge de profit du transporteur;
 - Le prix du caburant est au litre;
-- La consommation du tracteur est par litre;
+- La consommation du tracteur est en litre pour 1 Km;
 
 ## Guide pour la création des attributs
 
