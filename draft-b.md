@@ -11,6 +11,8 @@
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
 
+  Screen capture : [ici](www.github.com/INF3080_A2019_TP/)
+
 ### TP1 (ci-bas)
 
   Vous aurez à modéliser et scripter un schéma afin de créer une base de données.  Par la suite vous devrez créer et 
@@ -58,6 +60,7 @@
 - Les donneurs de voyage sont appelés manufacturiers;
 - Le transporteur peut avoir plusieurs camions;
 - Un camion implique deux parties, le tracteur et la remorque;
+- Un tracteur est actif (1) ou inactif (0); 
 - Les camions appartiennent à une compagnie;
 - Une compagnie fait toujours le même profit (un pourcentage : 1.18) sur tous les voyages;
 - Un camion est disponible lorsqu'il n'est pas en voyage;
@@ -100,7 +103,13 @@
  + largeur
  + hauteur
 
-### Tables fournies
+### Tables
+
+Les tables listées
+  - devront apparaitre dans votre modèle conceptuel;
+  - devront être créer par votre script `01_schema.sql` tel que fourni;
+
+#### Position
  + Position
    - La table contiendra les positions des équipements ainsi que la disponibilité
  
@@ -113,8 +122,9 @@
 | bDisponible  |     | |
 | pCamion      |     | fk |
 
-+ Route
-  - La table contient des routes et le nombre de km entre l'origine et la destination
+#### Route
+ + Route
+   - La table contient des routes et le nombre de km entre l'origine et la destination
 
 | Colonne | Grandeur | Description  |
 | :----------- |:------------ | :------|
@@ -126,6 +136,7 @@
 | nLongDes  | 8,5 | Coordonnée longitude destination |
 | nDistance | | Distance en KM |
 
+#### TypeEquipement
  + TypeEquipement
    - La table contiendra les types d'équipements
  
@@ -150,12 +161,12 @@
 ### 03_tester.sql
   Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident 
   à réaliser un travail de qualité.  Il est toujours important de faire des tests. Puisque
-  nous ne voulons pas perdre nos tests, je vous invite a les sauvegarder dans `03_tester.sql`
+  nous ne voulons pas perdre nos tests, je vous invite à les sauvegarder dans `03_tester.sql`.
 
 ### 04a_query.sql
- + Écrire une requête qui retourne les soumissions générées. 
+ + Écrire une requête qui retourne les soumissions générées
    - seulement les datées du 2019-09-30; 
-   - pour le pClient 4;
+   - pour le pClient { 4 };
 
 ### 04b_query.sql
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
@@ -267,7 +278,7 @@ un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon
 | Modèle            | Modèle conceptuel                                | 1.0 |
 | Algèbre           | Algèbre relationnel                              | 1.0 |
 | Schéma            | Script de création du schéma                     | 5.0 |
-| Chargement        | Script de chargement des tuples                  | 2.0 |
+| Chargement        | Script de chargement des tables                  | 2.0 |
 | Fonctionnalité    | Fonctionnalité, respect et complétude            | 5.0 |
 | Git clone         | récupération (droit lecture, écriture)           | 1.0 |
 | Markdown          | README.md                                        | 1.0 |
