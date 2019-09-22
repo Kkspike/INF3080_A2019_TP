@@ -137,7 +137,7 @@
 # Livrables
 
 ### 00_modele.pdf
-  Vous devez modéliser le sujet conceptuellement et produire le fichier `modele.pdf`;
+  Vous devez modéliser le sujet conceptuellement et produire le fichier `00_modele.pdf`;
 
 ### 01_schema.sql
   Votre schéma doit être dans un *script* nommé `01_schema.sql` et ne contenir que des commandes de création.
@@ -154,19 +154,24 @@
 
 ### 04a_query.sql
  + Écrire une requête qui retourne les soumissions générées. 
-   - seulement les datés du 2019-09-30; 
+   - seulement les datées du 2019-09-30; 
    - pour le pClient 4;
-   
-### 04a_query.sql
- + Écrire une requête qui retourne les soumissions générées. 
-   - seulement les datés du 2019-09-30; 
-   - pour le pClient 4;   
 
 ### 04b_query.sql
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
 
+### 04c_query.sql
+ + Écrire une requête qui retourne les objets table de mon schéma (le nom);
+ 
+### 04d_query.sql
+ + Écrire une requête qui retourne les attributs des entités E = { Tracteur, Camion, Equipement };
+ + format :
+| Entité | Attribut | Type  |
+| :----------- |:------------ | :------|
+|     |     |    |
+
 ### 05_algebre-tp1.pdf
- + Réaliser en utilisant l'algèbre relationnelle
+ + Réaliser en utilisant l'algèbre relationnelle et le modèle Entité-Association fourni (
    - a.  à venir
    - b.  à venir
 
