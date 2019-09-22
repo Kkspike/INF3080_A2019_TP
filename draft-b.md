@@ -165,7 +165,8 @@
  
 ### 04d_query.sql
  + Écrire une requête qui retourne les attributs des entités E = { Tracteur, Camion, Equipement };
- + format :
+ + Selon le format suivant :
+
 | Entité | Attribut | Type  |
 | :----------- |:------------ | :------|
 |     |     |    |
