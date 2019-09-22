@@ -11,8 +11,9 @@
   Le système (complet) est dit centralisé.  Ce qui veut dire que la base de données est centrale et accessible de partout.
   Évidemment, ceci est vrai seulement à l'aide d'une composante vitale, une application Web (qui n'est pas développée dans ce cours).
 
-  Screen capture demande de voyage UX : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran1.png)
-  Screen capture resultat de soummission UX : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran2.png)
+#### Screen capture 
+  - UI/UX demande de voyage : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran1.png)
+  - UI/UX résultat de soummission : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran2.png)
 
 ### TP1 (ci-bas)
 
@@ -55,6 +56,8 @@
  + manufacturier :arrow_right: client
  + proposition de tarification :arrow_right: soummission
  + transporteur :arrow_right: compagnie
+ + ...
+ 
 
 ## Détails pour la réalisation
 
