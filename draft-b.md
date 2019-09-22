@@ -119,7 +119,7 @@ Les tables listées
 | cPosition    | 30  | |
 | nLat         | 8,5 | |
 | nLong        | 8,5 | |
-| bDisponible  |     | |
+| bDisponible  |     |  Le camion est disponible pour prendre des voyages |
 | pCamion      |     | fk |
 
 #### Route
@@ -144,6 +144,7 @@ Les tables listées
 | :----------- |:------------ | :------|
 | pTypeEquipement    |     | pk|
 | cTypeEquipement    | 30  | |
+| nCout    | 8,2  | Cout par KM |
 
 # Livrables
 
