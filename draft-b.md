@@ -38,6 +38,7 @@
  + Concevoir un schéma sous forme de script SQL;
  + Concevoir et exécuter des requêtes afin de charger votre BD;
  + Concevoir et exécuter des requêtes afin de vérifier le contenu votre BD;
+ + Devenir familier avec la construction d'une BD dans un SGBDR;
 
 ## Les acteurs
 
