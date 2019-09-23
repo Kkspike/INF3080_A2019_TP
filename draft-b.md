@@ -14,8 +14,6 @@
 #### Screen capture 
   - UI/UX demande de voyage : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran1.png)
   - UI/UX résultat de soummission : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran2.png)
-     + ligne 1 : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ligne1.png)
-     + ligne 2 : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ligne2.png)
 
 ### TP1 (ci-bas)
 
