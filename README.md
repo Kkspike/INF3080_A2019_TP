@@ -6,4 +6,5 @@ Toutes les questions devront être ajouté au `issues` [îci](https://github.com
 
 [énoncé du tp1](./tp1.md)
 
+----
 Auteur Guy Francoeur
