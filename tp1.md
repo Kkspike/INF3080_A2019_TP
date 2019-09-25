@@ -185,7 +185,7 @@ Les tables listées
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
 
 ### 04c_query.sql
- + Écrire une requête qui retourne les objets table de mon schéma (le nom);
+ + Écrire une requête qui retourne les objets tables (attribut nom en minuscule) de mon schéma en ordre décroissant;
  
 ### 04d_query.sql
  + Écrire une requête qui retourne les attributs des entités E = { Tracteur, Camion, Equipement };
