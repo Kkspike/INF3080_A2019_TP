@@ -196,9 +196,9 @@ Les tables listées
 |     |     |    |
 
 ### 05_algebre-tp1.pdf
- + Réaliser en utilisant l'algèbre relationnelle et le modèle Entité-Association fourni (
-   - a.  Écrire en algèbre relationnelle la requête `04a_query.sql`;
-   - b.  Écrire en algèbre relationnelle la requête `04b_query.sql`;
+ + Réaliser, écrire en utilisant l'algèbre relationnelle :
+   - a. la requête `04a_query.sql`;
+   - b. la requête `04b_query.sql`;
 
 ### README.md
 
@@ -236,6 +236,8 @@ Les tables listées
    <indiquez si le projet est complété ou s'il y a des bogues>
    
    ## Auto-évaluation de votre travail
+   
+   <j'évalue mon livrable à x points>
 ~~~~
 
 # Remise
@@ -250,23 +252,18 @@ Les tables listées
   **Aucune remise par courriel ne sera acceptée** (le travail sera considéré comme non remis).
 
 Le nom de votre projet doit être `inf3080-a2019-tp1` (en minuscules). Vous devez donner un accès 
-  en mode **lecture/écriture** (pas **admin**) à l'utilisateur `guyfrancoeur` (moi-même). Ceci me 
-  permettra de déposer directement dans vos projets votre note pour le travail ainsi que mes commentaires si nécessaire.
+  en mode **lecture/écriture** (pas **admin**) à l'utilisateur 
+  + `guyfrancoeur` pour les gens de INF3080-030 A2019;
+  + `ammarhamad` pour les gens de INF3080-031 A2019; GitHub seulement;
   
+  Il sera ainsi possible pour le/les enseignants de commenter et noter votre travail de façon discrète.
+
   La branche `master` sera celle `clonée` et sera celle qui sera évaluée.
 
-  Votre projet devrait minimalement contenir les fichiers suivants :
-
-- Un fichier `cp.txt` contenant votre code permanent en majuscule et complet (requis pour la publication des résultats);
-- Un fichier `00_modele.pdf` contenant votre diagramme, modèle Entité-Association Relationnel _ERM - Entity Relation Model_;
-- Un fichier `01_schema.sql` contenant la création de votre schéma de base de données;
-- Un fichier `02_charger.sql` contenant les directives pour charger votre base de données;
-- Un fichier `03_tester.sql` contenant des vérifications que vous jugez appropriées (facultatif);
-- Les fichiers `04a_query.sql` et `04b_query.sql` contenant les réponses aux questions SQL;
-- Un fichier nommé `algebre-tp1.pdf` qui contient les réponses aux questions sur l'algèbre relationnelle;
-- Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
-- Un fichier ``.gitignore``. Ça aide beaucoup;
-- Aucune structure de répertoire nécessaire.
+  En plus de la section `Livrable`, votre projet devrait idéalement contenir les fichiers suivants :
+  - Un fichier `cp.txt` contenant votre code permanent en majuscule et complet (requis pour la publication des résultats);
+  - Un fichier ``.gitignore``. Ça aide beaucoup;
+  - Aucune structure de répertoire nécessaire.
 
 # Correction et évaluation
 
