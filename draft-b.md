@@ -70,6 +70,7 @@
 - Une compagnie fait toujours le même profit (un pourcentage : 1.18) sur tous les voyages;
 - Un camion est disponible lorsqu'il n'est pas en voyage;
 - Drybox et flatbed sont des types de remorques;
+- Il y a un coût différent par type d'équipements;
 - Les camions sont toujours situés à un endroit (latitude, longitude);
 - Un trajet est constitué d'une origine vers une destination;
 - Les propositions de tarification sont des estimations de prix à payer pour un trajet;
@@ -149,7 +150,7 @@ Les tables listées
 | :----------- |:------------ | :------|
 | pTypeEquipement    |     | pk|
 | cTypeEquipement    | 30  | |
-| nCout    | 8,2  | Cout par KM |
+| nCout    | 8,2  | Coût par KM |
 
 # Livrables
 
@@ -157,17 +158,23 @@ Les tables listées
   Vous devez modéliser le sujet conceptuellement et produire le fichier `00_modele.pdf`;
 
 ### 01_schema.sql
-  Votre schéma doit être dans un *script* nommé `01_schema.sql` et ne contenir que des commandes de création.
+  Votre schéma doit être dans un fichier de type texte (souvent appelé *script*) 
+  nommé `01_schema.sql` et devra contenir des commandes qui créera votre base de données alias
+  schéma. Toutes les commandes utilisées sont celle du DDL.  Le fichier sera executé 2 fois.
+  Assurez-vous qu'il n'y a pas d'erreur.
   
 ### 02_charger.sql
   Vous devez ensuite créer un deuxième *script* nommé `02_charger.sql` qui remplira votre BD.
-  Ce dernier doit contenir des commandes INSERT.
-  Certaines données peuvent être importées depuis un fichier CSV ou TSV.
+  Ce dernier doit contenir des commandes INSERT principalement. Le DML est d'usage pour
+  compléter ce fichier.
+  ~~Certaines données peuvent être importées depuis un fichier CSV ou TSV.~~
 
 ### 03_tester.sql
   Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident 
   à réaliser un travail de qualité.  Il est toujours important de faire des tests. Puisque
   nous ne voulons pas perdre nos tests, je vous invite à les sauvegarder dans `03_tester.sql`.
+  Ce fichier n'est pas facultatif.  Mais sont contenu est de votre création.  Auncune directive
+  ne vous sera imposé pour sa réalisation.
 
 ### 04a_query.sql
  + Écrire une requête qui retourne les soumissions générées
@@ -190,8 +197,8 @@ Les tables listées
 
 ### 05_algebre-tp1.pdf
  + Réaliser en utilisant l'algèbre relationnelle et le modèle Entité-Association fourni (
-   - a.  à venir
-   - b.  à venir
+   - a.  Écrire en algèbre relationnelle la requête `04a_query.sql`;
+   - b.  Écrire en algèbre relationnelle la requête `04b_query.sql`;
 
 ### README.md
 
@@ -228,7 +235,7 @@ Les tables listées
 
    <indiquez si le projet est complété ou s'il y a des bogues>
    
-   ## Auto-évaluation
+   ## Auto-évaluation de votre travail
 ~~~~
 
 # Remise
