@@ -185,15 +185,16 @@ Les tables listées
  + Écrire une requête qui liste les camions qui sont présentement en voyage;
 
 ### 04c_query.sql
- + Écrire une requête qui retourne les objets tables (attribut nom en minuscule) de mon schéma en ordre décroissant;
+ + Écrire une requête qui retourne le nom des tables en minuscule de mon schéma en ordre décroissant;
  
 ### 04d_query.sql
  + Écrire une requête qui retourne les attributs des entités E = { Tracteur, Camion, Equipement };
- + Selon le format suivant :
+ + Exemple de retour (projection en Algèbre relationnelle :wink: ) :
 
 | Entité | Attribut | Type  |
 | :----------- |:------------ | :------|
-|     |     |    |
+| TRACTEUR    | pTracteur    | NUMERIC   |
+| ...  |   |   |
 
 ### 05_algebre-tp1.pdf
  + Réaliser, écrire en utilisant l'algèbre relationnelle :
@@ -277,7 +278,7 @@ Votre travail sera soumis à plusieurs cas et les résultats seront évalués pa
 Assurez-vous de bien lire toutes les directives et les requis.
 
 La réflexion est un élément essentiel qu'il faut pratiquer. Vous devez donc réfléchir et réaliser
-un logiciel qui soit à la hauteur de ce que vous voulez.  Soyez beau, soyez bon, soyez fier.
+un travail qui soit à la hauteur de ce que vous désirez.  Soyez beau, soyez bon, soyez fier.
 
 > > Les fichiers seront soumis au détecteur de plagiat. Faites attention à la provenance de vos idées.
 
