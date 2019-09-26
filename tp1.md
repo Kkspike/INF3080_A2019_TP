@@ -13,7 +13,7 @@
 
 #### Screen capture 
   - UI/UX demande de voyage : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran1.png)
-  - UI/UX résultat de soummission : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran2.png)
+  - UI/UX résultat de soumission : [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/raw/master/ecran2.png)
 
 ### TP1 (ci-bas)
 
@@ -83,7 +83,7 @@
   + l'espace occupé dans la remorque;
   + le type de remorque;
   + la marge de profit du transporteur;
-- Le prix du caburant est au litre;
+- Le prix du carburant est au litre;
 - La consommation du tracteur est en litre pour 1 Km;
 
 ## Guide pour la création des attributs
@@ -112,8 +112,8 @@
 ### Tables
 
 Les tables listées
-  - devront apparaitre dans votre modèle conceptuel;
-  - devront être créer par votre script `01_schema.sql` tel que fourni;
+  - devront apparaître dans votre modèle conceptuel;
+  - devront être créés par votre script `01_schema.sql` tel que fourni;
 
 #### Position
  + Position
@@ -160,7 +160,7 @@ Les tables listées
 ### 01_schema.sql
   Votre schéma doit être dans un fichier de type texte (souvent appelé *script*) 
   nommé `01_schema.sql` et devra contenir des commandes qui créera votre base de données alias
-  schéma. Toutes les commandes utilisées sont celle du DDL.  Le fichier sera executé 2 fois.
+  schéma. Toutes les commandes utilisées sont celles du DDL.  Le fichier sera exécuté 2 fois.
   Assurez-vous qu'il n'y a pas d'erreur.
   
 ### 02_charger.sql
@@ -173,8 +173,8 @@ Les tables listées
   Vous devez dans un fichier nommé `03_tester.sql` écrire des requêtes qui vous aident 
   à réaliser un travail de qualité.  Il est toujours important de faire des tests. Puisque
   nous ne voulons pas perdre nos tests, je vous invite à les sauvegarder dans `03_tester.sql`.
-  Ce fichier n'est pas facultatif.  Mais sont contenu est de votre création.  Auncune directive
-  ne vous sera imposé pour sa réalisation.
+  Ce fichier n'est pas facultatif.  Mais son contenu est de votre création.  Auncune directive
+  ne vous sera imposée pour sa réalisation.
 
 ### 04a_query.sql
  + Écrire une requête qui retourne les soumissions générées
