@@ -6,7 +6,7 @@
   + 030
   + 031
 
-Toutes les questions devront être ajouté au `issues` [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/issues) de ce projet.
+Toutes les questions devront être ajoutées au `issues` [ici](https://github.com/guyfrancoeur/INF3080_A2019_TP/issues) de ce projet.
 
 [énoncé du tp1](./tp1.md)
 
