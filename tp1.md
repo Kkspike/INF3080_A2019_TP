@@ -59,6 +59,7 @@
  + transporteur :arrow_right: compagnie
  + ...
  
+ Les mots à droite du symbole :arrow_right: devraient être ceux utilisés dans votre modèle; 
 
 ## Détails pour la réalisation
 
@@ -119,7 +120,7 @@ Les tables listées
  + Position
    - La table contiendra les positions des équipements ainsi que la disponibilité
  
-| Colonne | Grandeur | Description  |
+| Colonne | Grandeur/Taille | Description  |
 | :----------- |:------------ | :------|
 | pPosition    |     | pk|
 | cPosition    | 30  | |
@@ -132,7 +133,7 @@ Les tables listées
  + Route
    - La table contient des routes et le nombre de km entre l'origine et la destination
 
-| Colonne | Grandeur | Description  |
+| Colonne | Grandeur/Taille | Description  |
 | :----------- |:------------ | :------|
 | pRoute |    | pk|
 | cRoute | 30 | |
@@ -146,7 +147,7 @@ Les tables listées
  + TypeEquipement
    - La table contiendra les types d'équipements
  
-| Colonne | Grandeur | Description  |
+| Colonne | Grandeur/Taille | Description  |
 | :----------- |:------------ | :------|
 | pTypeEquipement    |     | pk|
 | cTypeEquipement    | 30  | |
