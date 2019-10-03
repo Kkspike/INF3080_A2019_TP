@@ -287,7 +287,7 @@ un travail qui soit à la hauteur de ce que vous désirez.  Soyez beau, soyez bo
 
 | Critère | Sous-critère | Points |
 | ------- |:------------ | ------:|
-| Modèle            | Modèle conceptuel                                | 1.0 |
+| Modèle            | Modèle conceptuel ou relationnel                 | 1.0 |
 | Algèbre           | Algèbre relationnel                              | 1.0 |
 | Schéma            | Script de création du schéma                     | 5.0 |
 | Chargement        | Script de chargement des tables                  | 2.0 |
