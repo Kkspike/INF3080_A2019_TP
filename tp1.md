@@ -55,7 +55,7 @@
  + remorque :arrow_right: equipement
  + voyage :arrow_right: chargement
  + manufacturier :arrow_right: client
- + proposition de tarification :arrow_right: soummission
+ + proposition de tarification :arrow_right: soumission
  + transporteur :arrow_right: compagnie
  + ...
  
