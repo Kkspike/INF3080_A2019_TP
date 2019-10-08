@@ -10,5 +10,7 @@ Toutes les questions devront être ajoutées au `issues` [ici](https://github.co
 
 [énoncé du tp1](./tp1.md)
 
+[Issues (post) fermés](https://github.com/guyfrancoeur/INF3080_A2019_TP/issues?q=is%3Aissue+is%3Aclosed)
+
 ----
 Auteur Guy Francoeur
