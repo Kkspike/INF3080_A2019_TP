@@ -33,8 +33,8 @@
 
  L'objectif est de réaliser par la pratique la conception, la modélisation, la construction et l'exploitation de bases de données dans un SGBDR. 
  
- + Concevoir un modèle conceptuel;
- + Concevoir un modèle relationnel normalisé;
+ + Concevoir un modèle entité-association (conceptuel);
+ + Concevoir un modèle entité-association relationnel normalisé;
  + Concevoir un schéma sous forme de script SQL;
  + Concevoir et exécuter des requêtes afin de charger votre BD;
  + Concevoir et exécuter des requêtes afin de vérifier le contenu votre BD;
@@ -274,7 +274,7 @@ fonctionne **sans modification** sur celui-ci.
   
 Votre travail sera évalué de façon automatisée.  Ce qui implique que vos dépôts seront clonés
 et un pull sera effectué de façon automatique. Un `pull` par jour pendant 5 jours.
-Il n'y aura pas d'humain pour faire fonctionner le programme. 
+Il n'y aura pas d'humain pour faire fonctionner les programmes (scripts). 
 Votre travail sera soumis à plusieurs cas et les résultats seront évalués par un script `bash`.
 Assurez-vous de bien lire toutes les directives et les requis.
 
